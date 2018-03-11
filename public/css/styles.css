@@ -1,3 +1,14 @@
-li {
-    color: pink;
-}
+#main-nav {
+  background: #032f3d; }
+  #main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+  #main-nav li {
+    width: 14%; }
+
+section h1 {
+  font-size: 24px;
+  color: #032f3d; }
+
+/*# sourceMappingURL=styles.css.map */

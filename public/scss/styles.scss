@@ -1,8 +1,17 @@
 @import 'vars';
-li {
-    color: $blue;
+#main-nav {
+    background: $deepBlue;
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    li {
+        width: 14%;
+    }
 }
 
-a {
-    color: $red;
+section h1 {
+    font-size: $sectionHeading;
+    color: $deepBlue;
 }
